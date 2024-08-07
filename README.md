@@ -115,3 +115,20 @@ Uma classe eh definida por atibutos (caracteristicas da classe - variaveis) e me
 - O metodo possui risco de apresentar alguma excecao? Metodos podem apresetnar excessoes e precisamos preve-las na chamada desse metodo
 - Qual a visibilidade do metodo? O metedo sera vissicel para toda aplicacao, somente pacotes, atraves de heranca ou somente a nivel da propria class?
 
+## Escopo:
+- A depender do escopo de declaração, as variaveis, metodos ou classes declaradas dentro deste escopo se limitam a ela, ficando viziveis apenas dentro do escopo declarada
+
+## Java Docs:
+Documentação oficial JAVA
+### Tags
+Java Documentation é composto por tags que, representam dados relevantes para a compreensão da proposta de uma classe e os conjuntos de seus métodos e atributos conforme tabela abaixo:
+
+| Tag | Descrição |
+|-----|-----------|
+| @autor | Autor / Criador |
+| @version | Versão do recurso disponibilizado| 
+| @since | Versão / Data de início da disponibilização do recurso|
+| @param | Descrição dos parâmetros dos métodos criados|
+| @return | Definição do tipo de retorno de um método |
+| @throws| Se o método lança alguma exceção|
+
